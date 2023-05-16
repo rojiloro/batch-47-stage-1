@@ -1,20 +1,43 @@
 <html>
   <head>
     <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <form>
-      <input height="500px" type="text" required />
-      <input type="email" required />
-      <input type="number" required />
-      <select>
-        <option value="" hidden>Select</option>
-        <option>Frontend</option>
-        <option>Backend</option>
-        <option>Fullstack</option>
-      </select>
-      <textarea rows="5" cols="10"></textarea>
-      <button>Submit</button>
+      <div>
+        <label for="input-name">Name</label>
+        <input id="input-name" height="500px" type="text" required />
+      </div>
+
+      <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" type="email" required />
+      </div>
+
+      <div>
+        <label for="input-phone">Phone Number</label>
+        <input id="input-phone" type="number" required />
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option value="" hidden>Select</option>
+          <option>Frontend</option>
+          <option>Backend</option>
+          <option>Fullstack</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="input-message">Your Messages</label>
+        <textarea id="input-message" rows="5" cols="10"></textarea>
+      </div>
+
+      <div>
+        <button>Submit</button>
+      </div>
     </form>
   </body>
 </html>
