@@ -24,11 +24,30 @@
 // console.log(rog);
 
 // tipe data
-// string, number, boolean
-let name = "oji"; //string
-let umur = 15; //number
-let isMarried = false; //boolean
+// // string, number, boolean
+// let name = "oji"; //string
+// let umur = 15; //number
+// let isMarried = false; //boolean
 
-// nama saya oji umur saya 15 tahun
-console.log("nama saya oji umur saya 15 tahun");
-console.log("Nama saya " + name + " umur saya " + umur + " tahun");
+// // nama saya oji umur saya 15 tahun
+// console.log("nama saya oji umur saya 15 tahun");
+// console.log("Nama saya " + name + " umur saya " + umur + " tahun");
+
+// operator
+// let x = 48;
+// let y = "4";
+
+// let result = x + y;
+
+// console.log(result);
+
+// condition
+// jika nilai sama dengan atau lebih dari 75, maka lulus
+
+// let nilai = 76;
+
+// if (nilai >= 75) {
+//   console.log("kamu lulus");
+// } else {
+//   console.log("kamu tidak lulus");
+// }
