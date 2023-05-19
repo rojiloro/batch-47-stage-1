@@ -100,6 +100,7 @@ function submitData() {
   let a = document.createElement("a");
   a.href = `mailto:${emailReceiver}?subject=${subject}&body=Halo, Nama saya ${name}, ${message}. Silahkan kontak saya ${phone}`;
   a.click();
+
   console.log(name);
   console.log(email);
   console.log(phone);
