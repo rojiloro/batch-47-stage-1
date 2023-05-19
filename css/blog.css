@@ -125,3 +125,18 @@ blog .blog-list .blog-list-item .blog-content {
   text-decoration: none;
   color: #000;
 }
+
+/* blog detail */
+.blog-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-detail-container {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.blog-detail-container img {
+  width: 100%;
+}

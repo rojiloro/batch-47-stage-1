@@ -50,11 +50,35 @@
 // console.log(dataPersonal2.nama);
 
 // array of object
-let dataCaleg = [
-  { nama: "Joko Widodo", alamat: "Solo" },
-  { nama: "Puan Maharani", alamat: "Jakarta Barat" },
-  { nama: "Prabowo S", alamat: "Semarang" },
-];
+// let dataCaleg = [
+//   { nama: "Joko Widodo", alamat: "Solo" },
+//   { nama: "Puan Maharani", alamat: "Jakarta Barat" },
+//   { nama: "Prabowo S", alamat: "Semarang" },
+// ];
 
-console.log(dataCaleg);
-console.log(dataCaleg[1].nama);
+// console.log(dataCaleg);
+// console.log(dataCaleg[1].nama);
+
+let dataBlog = [];
+
+function addBlog(event) {
+  event.preventDefault();
+
+  let title = document.getElementById("input-blog-title").value;
+  let content = document.getElementById("input-blog-content").value;
+  let image = document.getElementById("input-blog-image").files;
+
+  // untuk membuat url gambar, agar tampil
+  image = URL.createObjectURL(image[0]);
+  console.log(image);
+
+  let blog = {
+    title,
+    content,
+    image,
+    postAt: "19 May 2023",
+    author: "oji",
+  };
+
+  console.log(blog);
+}
