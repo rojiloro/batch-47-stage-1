@@ -22,7 +22,7 @@
 textarea {
   width: 100%;
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -37,7 +37,7 @@ textarea {
 }
 
 .blog-form form .input-blog-image-group {
-  width: 100%;
+  width: 96%;
   font-size: 20px;
   font-weight: 400;
   padding: 8px;
@@ -75,9 +75,13 @@ textarea {
 }
 
 .blog .line {
-  border: 1px solid;
+  border: 1px solid #dbdbdb;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* blog list */
 .blog .blog-list {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -89,8 +93,8 @@ textarea {
 .blog .blog-list .blog-list-item {
   width: 80%;
   padding: 15px;
-  margin-bottom: 200px;
-  border: 2px solid #cbdbdb;
+  margin-bottom: 20px;
+  border: 2px solid #dbdbdb;
   border-radius: 8px;
   display: flex;
 }
@@ -112,13 +116,23 @@ blog .blog-list .blog-list-item .blog-content {
 
 .blog .blog-list .btn-group {
   text-align: right;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .blog .blog-list .btn-group .btn-edit {
-  padding: 5px 16px;
+  margin-top: 10px;
+  padding: 5px 10px;
   border: none;
   border-radius: 4px;
   background: #dbdbdb;
+}
+
+.blog .blog-list .btn-group .btn-delete {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background: #ec4d37;
+  color: white;
 }
 
 .blog .blog-list h1 a {
@@ -139,4 +153,28 @@ blog .blog-list .blog-list-item .blog-content {
 
 .blog-detail-container img {
   width: 100%;
+}
+
+.blog-detail-container h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 120%;
+  margin-bottom: 15px;
+}
+
+.blog-detail-container .author {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.blog-detail-container p {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: justify;
 }

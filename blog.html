@@ -12,10 +12,10 @@
             <img src="assets/image/logo.png" alt="logo" />
           </li>
           <li>
-            <a class="active" href="index.html">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a class="active" href="#">Blog</a>
           </li>
         </ul>
       </div>
@@ -27,7 +27,7 @@
     <div class="blog">
       <div class="blog-form">
         <div class="form-container">
-          <form onsubmit="">
+          <form onsubmit="addBlog(event)">
             <h1>Create Post Blog</h1>
             <div>
               <label for="input-blog-title">Title</label>
@@ -35,7 +35,7 @@
             </div>
             <div>
               <label for="input-blog-content">Content</label>
-              <textarea name="" id="input-blog-content"></textarea>
+              <textarea id="input-blog-content"></textarea>
             </div>
             <div>
               <label>Upload Image</label>
@@ -56,10 +56,10 @@
 
       <hr class="line" />
 
-      <div class="blog-list">
+      <div id="contents" class="blog-list">
         <div class="blog-list-item">
           <div class="blog-image">
-            <img src="assets/image/blog.img.png" alt="blog.img" />
+            <img src="assets/image/blog-img.png" alt="blog.img" />
 
             <div class="blog-content">
               <div class="btn-group">
@@ -69,8 +69,11 @@
               <h1>
                 <a href="blog_detail.html" target="_blank"> Pasar Coding di Indonesia dnilai lebih menjanjikan </a>
               </h1>
-              <div class="detail-blog-content">12 Juli 2021 22.30 WIB | Ichsan Arnold Alamsyah</div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus esse tempore a earum debitis sunt deleniti voluptatem placeat, nulla quisquam ducimus, blanditiis sit cum. Qui deserunt voluptatum quae iusto. Nulla?</p>
+              <div class="detail-blog-content">12 Juli 2021 22.30 WIB | ichsan emerald Alamsyah</div>
+              <p>
+                Ketimpangan sumber daya manusia (SDM) di sektor digital masih menjadi isu yang belum terpecahkan. Berdasarkan penelitian ManpowerGroup, ketimpangan SDM global, termasuk Indonesia, meningkat dua kali lipat dalam satu dekade
+                terakhir. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, molestiae numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta, eligendi debitis?
+              </p>
             </div>
           </div>
         </div>
