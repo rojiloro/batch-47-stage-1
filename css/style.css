@@ -93,7 +93,7 @@ section {
 .hamburger-nav-container {
   font-size: 23px;
   list-style-type: none;
-  /* display: none; */
+  display: none;
 }
 
 .hamburger-nav-container a {
@@ -116,4 +116,40 @@ section {
   justify-content: center;
   padding: 10px;
   border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-container {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .left {
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right {
+    margin-left: 0;
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .skill {
+    flex-direction: column;
+  }
+
+  .item-collapse {
+    display: none;
+  }
+
+  #barsmenu {
+    display: block;
+  }
 }

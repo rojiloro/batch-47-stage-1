@@ -23,12 +23,15 @@
           <li class="item-collapse">
             <a href="#">Blog</a>
           </li>
+          <li class="item-collapse">
+            <a href="#">Testimonial</a>
+          </li>
         </ul>
       </div>
       <div class="nav-right item-collapse">
         <a href="contact.html">Contact</a>
       </div>
-      <div class="nav-right item-collapse" id="barsmenu">
+      <div class="nav-right item-collapse" id="barsmenu" onclick="openHamburger()">
         <button style="background-color: transparent; border: none; cursor: pointer">
           <i class="fa-2x fa-solid fa-bars"></i>
         </button>
@@ -38,13 +41,14 @@
     <div class="hamburger-nav-container" id="hamburger-nav-container">
       <a href="index.html" class="hamburger-active">Home</a>
       <a href="blog.html">Blog</a>
+      <a href="testimonial.html">Testimonial</a>
       <a href="contact.html">Contact</a>
     </div>
 
     <div class="container">
       <section>
         <div class="left">
-          <div style="width: 350px; margin: 0 auto; padding: 10px; border-radius: 10px; box-shadow: 0 0 15px #cecece">
+          <div style="width: 350px; margin: 0 auto; padding: 10px; border-radius: 10px; box-shadow: 0 0 15px #cecece" class="card-container">
             <img style="width: 100%; border-radius: 10px 10px 0 0" src="assets/image/img1.jpg" alt="gambar wibu" />
             <h2>Mohammad Fatkhuroji</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit sed dignissimos doloribus</p>

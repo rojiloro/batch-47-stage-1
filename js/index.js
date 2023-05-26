@@ -2,10 +2,11 @@ let hamburgerIsOpen = false;
 
 function openHamburger() {
   let hamburerNavContainer = document.getElementById("hamburger-nav-container");
-  if (!hamburgerIsOpen){
+  if (!hamburgerIsOpen) {
     hamburerNavContainer.style.display = "block";
-    hamburgerIsOpen = true;  
-  }else {
-    
+    hamburgerIsOpen = true;
+  } else {
+    hamburerNavContainer.style.display = "none";
+    hamburgerIsOpen = false;
   }
 }
